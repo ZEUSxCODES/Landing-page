@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmNest - Your Movie Destination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .quiz {
+            text-align: center;
+            margin-top: 30px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to FilmNest</h1>
+        <p>Your ultimate destination for everything related to movies! Join our Telegram channel now to stay updated with the latest movie news, reviews, and recommendations.</p>
+        <div class="quiz">
+            <h2>Test Your Movie Knowledge!</h2>
+            <p>Take our movie quiz and challenge yourself!</p>
+            <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+    </div>
+
+    <script>
+        function startQuiz() {
+            // You can replace this quiz with any interactive content you like
+            alert("Get ready to test your movie knowledge!");
+            // Add your quiz logic here
+            // Example: Redirect to a quiz page or display quiz questions dynamically
+            // window.location.href = "quiz.html";
+        }
+    </script>
+</body>
+</html>
