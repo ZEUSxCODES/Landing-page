@@ -1,1 +1,1 @@
-web: serve -s ./landing-page
+web: python -m http.server $PORT --directory ./landing-page/index.htlm
