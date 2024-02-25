@@ -1,12 +1,12 @@
 {
-  "name": "Landing page",
+  "name": "your-web-page",
   "version": "1.0.0",
   "description": "A simple web page",
-  "main": "index.html",  // This can be your entry HTML file
+  "main": "index.html",
   "scripts": {
-    "start": "http-server -p 3000"  // You may need to install http-server globally (npm install -g http-server)
+    "start": "http-server -p 3000"
   },
-  "author": "Anmol0700",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.12.3"
