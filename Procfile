@@ -1,1 +1,1 @@
-web: python -m http.server $PORT --directory ./landing-page
+web: serve -s ./landing-page
